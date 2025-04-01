@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5fbe8;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #d9edc2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #006D69;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(0, 109, 105, 0.1);
+}
+
+.case-section {
+    padding: 80px 10%;
+}
+
+.case-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.case-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+}
+
+footer {
+    background-color: #2d632f;
+    color: white;
+    text-align: center;
+    padding: 20px 10%;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.newsletter input {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.newsletter button {
+    background-color: white;
+    color: #2d632f;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
